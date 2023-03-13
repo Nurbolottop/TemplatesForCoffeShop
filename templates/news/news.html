@@ -1,0 +1,264 @@
+{% extends 'homepage.html' %}
+{%load static %}
+{% block content %}
+
+
+
+
+<!-- Google Tag Manager (noscript) -->
+<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-WPWGNL" height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+<!-- End Google Tag Manager (noscript) -->
+
+<!-- Loading Spinner -->
+<div class="spinner">
+    <div class="line1"></div>
+    <div class="line2"></div>
+    <div class="line3"></div>
+    <div class="line4"></div>
+</div>
+<!--/ Loading Spinner -->
+<div id="page" class="hfeed site invisible">
+    {% include "include/header.html"%}
+    <div id="main" class="site-main" role="main">        <!--Header Section-->
+        <section class="fly-section-image fly-header-image fly-section-overlay fly-section-height-md parallax"
+                 style="background-image: url('{% static 'images/News/news-bg.jpg' %}')">
+            <div class="container">
+                <div class="row"><h3 class="fly-section-image-title-before">Fresh</h3>
+
+                    <h2 class="fly-section-image-title-after">NEWS</h2></div>
+            </div>
+        </section>
+        <!--End Header Section-->        <!--Wrapper Content-->
+        <section class="fly-sidebar-right">
+            <div class="fly-divider-space space-md"></div>
+            <div class="container">
+                <div class="row">                    <!--Content Area-->
+                    <div class="fly-content-area col-md-8 col-sm-12">
+                        <div class="fly-col-inner">
+                            <div class="post-list">                                <!-- Post 1 -->
+                                <article class="post post-thumbnail-left clearfix">
+                                    <div class="fly-post-image"><a class="fly-post-thumbnail" href="news-details.html">
+                                        <img src="{% static 'images/News/post-1.jpg' %}" alt="Post 1"/> </a></div>
+                                    <div class="fly-post-content">
+                                        <header class="entry-header">
+                                            <div class="entry-meta"><a class="entry-date" href="#" rel="bookmark">
+                                                <time datetime="2015-04-06" class="fly-post-date">06 April 2014</time>
+                                            </a></div>
+                                            <h2 class="entry-title"><a href="news-details.html">WHEN THIS WAY OVER AND
+                                                ADD POTATOES</a></h2></header>
+                                        <div class="entry-content"> Fill some gravy if there remains below the fillet or
+                                            till they have left, and the soup and serve as an hour, and will do not very
+                                            finely three...
+                                        </div>
+                                    </div>
+                                </article>
+                                <!-- Post 2 -->
+                                <article class="post post-thumbnail-right clearfix">
+                                    <div class="fly-post-image"><a class="fly-post-thumbnail" href="news-details.html">
+                                        <img src="{% static 'images/News/post-2.jpg' %}" alt="Post 2"/> </a></div>
+                                    <div class="fly-post-content">
+                                        <header class="entry-header">
+                                            <div class="entry-meta"><a class="entry-date" href="#" rel="bookmark">
+                                                <time datetime="2015-04-06" class="fly-post-date">06 April 2014</time>
+                                            </a></div>
+                                            <h2 class="entry-title"><a href="news-details.html">FRIED CHICKEN &
+                                                CHAMPAGNE IS BACK!</a></h2></header>
+                                        <div class="entry-content"> Join us on Thursday, July 31st for all you can eat
+                                            Fried Chicken with Southern inspired sides & desserts, plus unlimited
+                                            Champagnes!
+                                        </div>
+                                    </div>
+                                </article>
+                                <!-- Post 3 -->
+                                <article class="post post-thumbnail-left clearfix">
+                                    <div class="fly-post-image"><a class="fly-post-thumbnail" href="news-details.html">
+                                        <img src="{% static 'images/News/post-3.jpg' %}" alt="Post 3"/> </a></div>
+                                    <div class="fly-post-content">
+                                        <header class="entry-header">
+                                            <div class="entry-meta"><a class="entry-date" href="#" rel="bookmark">
+                                                <time datetime="2015-04-06" class="fly-post-date">06 April 2014</time>
+                                            </a></div>
+                                            <h2 class="entry-title"><a href="news-details.html">4TH ANNUAL EAT LOCAL
+                                                CHALLENGE</a></h2></header>
+                                        <div class="entry-content"> The FlyCoffee are challenging YOU to go 30 days in
+                                            June eating only foods grown, caught, or raised within a 200 ...
+                                        </div>
+                                    </div>
+                                </article>
+                                <!-- Post 4 -->
+                                <article class="post post-thumbnail-right clearfix">
+                                    <div class="fly-post-image"><a class="fly-post-thumbnail" href="news-details.html">
+                                        <img src="{% static 'images/News/post-4.jpg' %}" alt="Post 4"/> </a></div>
+                                    <div class="fly-post-content">
+                                        <header class="entry-header">
+                                            <div class="entry-meta"><a class="entry-date" href="#" rel="bookmark">
+                                                <time datetime="2015-04-06" class="fly-post-date">06 April 2014</time>
+                                            </a></div>
+                                            <h2 class="entry-title"><a href="news-details.html">january IS COOLINARY
+                                                MONTH!</a></h2></header>
+                                        <div class="entry-content"> During the month of August, enjoy 2-3 course lunch
+                                            menus for $20 or less and 3 course dinner menus at $35 or less at over 50
+                                            award winning restaurants.
+                                        </div>
+                                    </div>
+                                </article>
+                            </div>
+                        </div>
+                        <!-- Post Navigation -->
+                        <nav class="navigation paging-navigation" role="navigation">
+                            <div class="pagination loop-pagination"><a href="#" class="prev page-numbers disabled"><i
+                                    class="fa fa-angle-left"></i></a> <span class="page-numbers current">1</span> <a
+                                    class="page-numbers" href="#">2</a> <a class="page-numbers" href="#">3</a> <a
+                                    class="next page-numbers" href="#"><i class="fa fa-angle-right"></i></a></div>
+                        </nav>
+                    </div>
+                    <!--Sidebar-->
+                    <div class="fly-sidebar col-md-4 col-sm-12">
+                        <div class="fly-col-inner">                            <!--Widget Search-->
+                            <aside class="widget widget_search">
+                                <form class="search-form" action="#"><label> <input type="search" class="search-field"
+                                                                                    placeholder="Search" value=""
+                                                                                    name="s" title="Search"> </label>
+                                </form>
+                            </aside>
+                            <!--Widget Categories-->
+                            <aside class="widget widget_categories"><h3 class="widget-title"><span>Categories</span>
+                            </h3>
+                                <ul>
+                                    <li class="cat-item"><a href="#">Recipes</a></li>
+                                    <li class="cat-item current-cat"><a href="#">Press</a></li>
+                                    <li class="cat-item"><a href="#">Other</a></li>
+                                </ul>
+                            </aside>
+                            <!--Widget Recent Post-->
+                            <aside class="widget widget_recent_post"><h3 class="widget-title"><span>Recent Posts</span>
+                            </h3>
+                                <ul>
+                                    <li><a href="#">Cheese Brie Sandwich</a></li>
+                                    <li><a href="#">Roasted Tomato Soup</a></li>
+                                    <li><a href="#">Cheese Stuffed Tomatoes</a></li>
+                                    <li><a href="#">Hot Cereals Breakfast</a></li>
+                                </ul>
+                            </aside>
+                            <!--Widget Instagram-->
+                            <aside class="widget widget_instagram"><h3 class="widget-title"><span>Instagram</span></h3>
+
+                                <div class="fly-instagram-wrap">
+                                    <ul>
+                                        <li><a href="#"> <img src="{% static 'images/Instagram/insta-1.jpg' %}" alt="Image 1"/> </a>
+                                        </li>
+                                        <li><a href="#"> <img src="{% static 'images/Instagram/insta-2.jpg' %}" alt="Image 2"/> </a>
+                                        </li>
+                                        <li><a href="#"> <img src="{% static 'images/Instagram/insta-3.jpg' %}" alt="Image 3"/> </a>
+                                        </li>
+                                        <li><a href="#"> <img src="{% static 'images/Instagram/insta-4.jpg' %}" alt="Image 4"/> </a>
+                                        </li>
+                                        <li><a href="#"> <img src="{% static 'images/Instagram/insta-5.jpg' %}" alt="Image 5"/> </a>
+                                        </li>
+                                        <li><a href="#"> <img src="{% static 'images/Instagram/insta-6.jpg' %}" alt="Image 6"/> </a>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </aside>
+                            <!--Widget Tags-->
+                            <aside class="widget widget_tag_cloud"><h3 class="widget-title"><span>Instagram</span></h3>
+
+                                <div class="tagcloud"><a href="#">blog</a> <a href="#">restaurant</a> <a
+                                        href="#">food</a> <a href="#">dinner</a> <a href="#">unbelievable</a> <a
+                                        href="#">reservation</a> <a href="#">special offers</a></div>
+                            </aside>
+                            <!-- Widget Tags -->
+                            <aside id="calendar-2" class="widget widget_calendar"><h2 class="widget-title"><span>Calendar</span>
+                            </h2>
+
+                                <div id="calendar_wrap">
+                                    <table id="wp-calendar">
+                                        <caption>April 2015</caption>
+                                        <thead>
+                                        <tr>
+                                            <th scope="col" title="Monday">M</th>
+                                            <th scope="col" title="Tuesday">T</th>
+                                            <th scope="col" title="Wednesday">W</th>
+                                            <th scope="col" title="Thursday">T</th>
+                                            <th scope="col" title="Friday">F</th>
+                                            <th scope="col" title="Saturday">S</th>
+                                            <th scope="col" title="Sunday">S</th>
+                                        </tr>
+                                        </thead>
+                                        <tfoot>
+                                        <tr>
+                                            <td colspan="3" id="prev" class="pad"><a href="#"></a></td>
+                                            <td class="pad">&nbsp;</td>
+                                            <td colspan="3" id="next" class="pad"><a href="#"></a></td>
+                                        </tr>
+                                        </tfoot>
+                                        <tbody>
+                                        <tr>
+                                            <td colspan="2" class="pad">&nbsp;</td>
+                                            <td>1</td>
+                                            <td>2</td>
+                                            <td>3</td>
+                                            <td>4</td>
+                                            <td>5</td>
+                                        </tr>
+                                        <tr>
+                                            <td>6</td>
+                                            <td>7</td>
+                                            <td>8</td>
+                                            <td>9</td>
+                                            <td>10</td>
+                                            <td>11</td>
+                                            <td>12</td>
+                                        </tr>
+                                        <tr>
+                                            <td>13</td>
+                                            <td>14</td>
+                                            <td>15</td>
+                                            <td id="today"><a href="#" title="Hello world!">16</a></td>
+                                            <td>17</td>
+                                            <td>18</td>
+                                            <td>19</td>
+                                        </tr>
+                                        <tr>
+                                            <td>20</td>
+                                            <td>21</td>
+                                            <td>22</td>
+                                            <td>23</td>
+                                            <td>24</td>
+                                            <td>25</td>
+                                            <td>26</td>
+                                        </tr>
+                                        <tr>
+                                            <td>27</td>
+                                            <td>28</td>
+                                            <td>29</td>
+                                            <td>30</td>
+                                            <td class="pad" colspan="3">&nbsp;</td>
+                                        </tr>
+                                        </tbody>
+                                    </table>
+                                </div>
+                            </aside>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="fly-divider-space space-md"></div>
+        </section>
+        <!--End Wrapper Content-->        <!--Section Go To Top-->
+        <section class="fly-go-to-top fly-theme-color-4">
+            <div class="row">
+                <div class="fly-divider-space space-sm"></div>
+            </div>
+            <div class="row"><a class="fly-btn fly-btn-1 fly-btn-md fly-btn-color-2 fly-btn-to-top" href="#main"><span>TOP</span></a>
+            </div>
+            <div class="row">
+                <div class="fly-divider-space space-sm"></div>
+            </div>
+        </section>
+        <!--End Section Go To Top-->
+        <!-- Section quick nav -->
+        {% include 'include/footer.html'%}
+
+</div>
+{% endblock %}

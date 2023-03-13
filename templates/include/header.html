@@ -1,0 +1,26 @@
+{% load static %}
+<header class="fly-header-site fly-header-type-1 fly-sticky-header-on">
+    <div class="fly-nav-wrap fly-nav-left">
+        <nav class="fly-site-navigation primary-navigation" id="fly-menu-primary">
+            <ul class="fly-nav-menu">
+                <li><a href="{% url 'index' %}">Домой</a>
+                </li>
+                <li><a href="{% url 'about' %}">О нас</a></li>
+                <li><a href="{% url 'menu'%}">Меню</a></li>
+            </ul>
+        </nav>
+    </div>
+    <!--Logo-->
+    <div class="fly-wrap-logo"><a class="fly-logo" href="{% url 'index' %}"> <img src="{{setting.image.url}}" alt="Logo"/> </a></div>
+    <div class="fly-nav-wrap fly-nav-right">
+        <nav class="fly-site-navigation secondary-navigation" id="fly-menu-secondary">
+            <ul class="fly-nav-menu">
+                <li><a href="{% url 'news'%}">Новости</a></li>
+                <li><a href="{% url 'photo' %}">Галерея</a></li>
+                <li class="menu-item-has-children"><a href="{% url 'contact'%}">Контакты</a>
+                   
+                </li>
+            </ul>
+        </nav>
+    </div>
+</header>
